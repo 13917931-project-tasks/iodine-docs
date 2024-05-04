@@ -45,3 +45,8 @@ mnsecx srv2 iodined -f -c -P ChangeMe-123 10.199.199.1/24 iodine.hackinsdn.ufba.
 mnsecx o1 iodine -f -P ChangeMe-123 10.0.0.2 iodine.hackinsdn.ufba.br
 ```
 
+```
+iptables -I FORWARD -i s1+ -j ACCEPT
+iptables -I FORWARD -i s2+ -j ACCEPT
+```
+
