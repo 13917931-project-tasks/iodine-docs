@@ -23,12 +23,12 @@ host=localhost
 interface=nettap1-eth2
 ```
 
-Then, start Zeek:
+Then, in root mode, start Zeek:
 
 ```
-sudo su
 cd /usr/local/zeek/bin
 ./zeekctl
+deploy
 ```
 
 The user can check if Zeek is running correctly by executing *status* in ZeekControl shell.
