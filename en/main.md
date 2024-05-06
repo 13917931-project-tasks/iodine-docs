@@ -52,7 +52,7 @@ mnsecx o1 iodine -f -P ChangeMe-123 10.0.0.2 iodine.hackinsdn.ufba.br
 
 
 
-Mininet-sec, such as other versions of Mininet, provides no connexion between its internal components and internet, a fact that limitates the possibilities of experimentation in order to the operation of a DNS Tunnel. Nevertheless, it is possible to verify the functioning of the DNS Tunnel through other commands.
+Mininet-sec, such as other versions of Mininet, provides no connexion between its internal components and internet by default, a fact that limitates the possibilities of experimentation in order to the operation of a DNS Tunnel. Nevertheless, it is possible to verify the functioning of the DNS Tunnel through other commands.
 
 ```
 mnsecx o1 ping -s 1200 -f 10.199.199.1
