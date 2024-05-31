@@ -56,5 +56,8 @@ Mininet-sec, such as other versions of Mininet, provides no connexion between it
 
 ```
 mnsecx o1 ping -s 1200 -f 10.199.199.1
+sh iptables -I FORWARD -i s99+ -j ACCEPT
+#consulta DNs legitima com tamanho anormal
+o1 dig @8.8.8.8 dod.us +dnssec +noedns
 ```
 
